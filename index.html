@@ -1,39 +1,45 @@
 <!doctype html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>WAYUP</title>
+    <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-    <img src="/img/logo.jpeg" width="150px"  alt="WAYUP">
-    <h1>Вступление H1</h1>
-    <p>
-        Это текст моего первого домашнего задания.
-    </p>
-    <p>
-        Не вериться, но мне уже удается писать свой первый код на HTML.
-    </p>
-    <h2>Что дальше? H2</h2>
-    <p>
-        Дальше я буду получать все больше и больше опыта в разработке сайтов, чтобы достичь новых вершин!
-        <a href="https://google.com/search?q=html+css" target="_blank">Прочитать больше в Google</a>
-    </p>
-    <h2>Что я буду уметь? H2</h2>
-    <p>
-        Я смогу создавать вот такие замечательные формы:
-    </p>
-    <form action="#">
-        <input type="text" name="name" placeholder="Имя" required>
-        <input type="email" name="email" placeholder="E-mail" required>
-        <input type="tel" name="phone" placeholder="Телефон" required>
-        <button type="submit">Отправить форму</button>
-    </form>
-    <p>
-        А также, я научусь создавать списки:
-    </p>
+    <header>
+        <img src="img/logo.jpeg" width="150px"  alt="WAYUP">
+        <h1>Вступление H1</h1>
+        <p class="first">
+            Это текст моего первого домашнего задания.
+        </p>
+        <p>
+            Не верится, но мне уже удается писать свой <span>первый код на HTML.</span>
+        </p>
+    </header>
+    <section>
+        <h2>Что дальше? H2</h2>
+        <p>
+            Дальше, я буду получать все больше и больше опыта в разработке сайтов, чтобы достичь новых вершин!
+            <a href="https://google.com/search?q=html+css" target="_blank">Прочитать больше в Google</a>
+        </p>
+    </section>
+    <section class="what">
+        <h2>Что я буду уметь? H2</h2>
+        <p class="second">
+            Я смогу создавать вот такие замечательные формы:
+        </p>
+        <form action="#">
+            <input type="text" name="name" placeholder="Имя" required>
+            <input type="email" name="email" placeholder="E-mail" required>
+            <input type="tel" name="phone" placeholder="Телефон" required>
+            <button type="submit">Отправить форму</button>
+        </form>
+        <p>
+            А также, я научусь создавать списки:
+        </p>
         <ul>
             <li>
                 С одним пунктом
@@ -45,7 +51,10 @@
                 И даже с тремя отдельными пунктами
             </li>
         </ul>
-    <h2>Отличное начало! H2</h2>
-    <a href="https://my.wayup.in/lesson/2440" target="_blank">Перейти на страницу первого занятия курса</a>
+    </section>
+    <footer>
+        <h2>Отличное начало! H2</h2>
+        <a href="https://my.wayup.in/lesson/2440" target="_blank">Перейти на страницу первого занятия курса</a>
+    </footer>
 </body>
 </html>
