@@ -1,13 +1,10 @@
-h1 {
-    color: red;
-}
 header .first {
     width: 100px;
     color: white;
     background-color: blue;
     margin-bottom: 90px;
 }
-p span {
+h1, p span {
     color: red;
 }
 h2 {
